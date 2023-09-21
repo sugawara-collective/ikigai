@@ -22,7 +22,7 @@ title: ikigai
 email: sugawaradigizine@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   ikigai, an oikawa, kageyama, and sugawara zine.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/ikigai" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: thesugawaracltv
 github_username:  sugawara-collective

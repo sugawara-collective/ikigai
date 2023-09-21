@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+
+  <body>
+  	<div class="fixed-background"></div>
+    <main class="page-main">
+      <article class="main-content container">
+      	<p class="zine-name">
+	      	<span class="title">ikigai</span><br/>
+	      	<span class="subtitle">a kageyama, oikawa, and sugawara zine</span>
+	      </p>
+
+      	{{ content }}
+  	  </article>
+    </main>
+  </body>
+  <!-- <script src="{{ 'assets/js/bulma.js' | prepend: site.baseurl }}"></script> -->
+  {% if page.scripts %}
+  {% for script in page.scripts %}
+    <script src="{{ script }}"></script>
+  {% endfor %}
+  {% endif %}
+</html>

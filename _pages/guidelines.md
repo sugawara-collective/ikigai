@@ -67,3 +67,5 @@ Please take note of the following guidelines for your output:
 Let us know through the application form what you have in mind that isn’t listed above, and we’ll talk about it! **General Guidelines** still apply; otherwise it may result in automatic rejection of your entry.
 
 For any questions/concerns, you may reach us through [Twitter](https://twitter.com/thesugawaracltv), [Tumblr](https://www.tumblr.com/thesugawaracollective), [Instagram](https://www.instagram.com/thesugawaracollective/), or by email: [sugawaradigizine+ikigai@gmail.com](mailto:sugawaradigizine+ikigai@gmail.com).
+
+If you would like to sign up, [please follow this link to the form](https://forms.gle/aFqVkheJ8wDtDtrW7).

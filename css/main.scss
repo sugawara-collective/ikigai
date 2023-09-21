@@ -33,6 +33,14 @@ body {
 	font-size: .9em;
 }
 
+a {
+	color: #6798c0;
+
+	&:visited {
+		color: #6798c0;
+	}
+}
+
 h1,h2,h3,h4,h5,h6 {
 	font-family: Arapey;
 }
@@ -97,7 +105,7 @@ h1,h2,h3,h4,h5,h6 {
 .page-button {
 	font-family: Arapey;
     text-transform: uppercase;
-    color: #2d3142;
+    color: #2d3142 !important;
     border-color: #2d3142;
     font-size: large;
     text-decoration: none;
@@ -107,7 +115,7 @@ h1,h2,h3,h4,h5,h6 {
     border-radius: 1.5em;
 
     &:hover {
-    	color: #6798c0;
+    	color: #6798c0 !important;
     	border-color: #6798c0;
     }
 }
@@ -142,4 +150,8 @@ h1,h2,h3,h4,h5,h6 {
 
 .icon#insta {
   background-image: url({{ '/assets/images/insta.png' | prepend: site.baseurl }});
+}
+
+.icon#home {
+  background-image: url({{ '/assets/images/home.png' | prepend: site.baseurl }});
 }

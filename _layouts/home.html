@@ -14,8 +14,9 @@
       	<div class="page-buttons">
       		{% for pg in site.pages %} {% unless pg.exclude %}
 		    {% if pg.title %}
-		    <a class="page-button {% if pg.title == page.title %}current{% endif %}" href="{{ pg.url | prepend: site.baseurl }}">{{ pg.title }}</a>
+		    <a class="page-button" href="{{ pg.url | prepend: site.baseurl }}">{{ pg.title }}</a>
 		    {% endif %} {% endunless %} {% endfor %}
+		    <a class="page-button" href="https://forms.gle/aFqVkheJ8wDtDtrW7" target="_blank">Sign Up</a>
       	</div>
 
       	<div class="contact-buttons">

@@ -3,48 +3,25 @@
 ---
 @font-face {
     font-family: HiguenSerif;
-    src: url({{ "/assets/fonts/Higuen Serif.otf" | prepend: site.baseurl }}) format("opentype");
+    src: url( "{{ '/assets/fonts/Higuen Serif.otf' | prepend: site.baseurl }}" ) format("opentype");
 }
 
 @font-face {
     font-family: Arapey;
-    src: url({{ "/assets/fonts/Arapey/Arapey-Regular.ttf" | prepend: site.baseurl }}) format("truetype");
+    src: url("{{ '/assets/fonts/Arapey/Arapey-Regular.ttf' | prepend: site.baseurl }}") format("truetype");
 }
 
 @font-face {
     font-family: Poppins;
-    src: url({{ "/assets/fonts/Poppins/Poppins-Light.ttf" | prepend: site.baseurl }}) format("truetype");
+    src: url("{{ '/assets/fonts/Poppins/Poppins-Light.ttf' | prepend: site.baseurl }}") format("truetype");
 }
 
 @font-face {
     font-family: Poppins;
     font-weight: bold;
-    src: url({{ "/assets/fonts/Poppins/Poppins-Medium.ttf" | prepend: site.baseurl }}) format("truetype");
+    src: url("{{ '/assets/fonts/Poppins/Poppins-Medium.ttf' | prepend: site.baseurl }}") format("truetype");
 }
 
-/*
-@import "bulma/base/_all.sass";
-@import "bulma/utilities/_all.sass";
-@import "bulma/grid/_all.sass";
-*/
-/*
-the text box..
-    max-width: 1000px;
-    margin: auto;
-    background: rgba(255,255,255,.5);
-    position: relative;
-    top: 10%;
-    height: 50%;
-    padding: 2em;
-    border-radius: 2em;
-
-
-the background
-	height: 100%;
-    background-image: url({{ '/assets/images/BACKGROUND.png' | prepend: site.baseurl }});
-    background-position: right;
-
-*/
 
 * {
 	box-sizing: border-box;

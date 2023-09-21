@@ -6,12 +6,20 @@
   	<div class="fixed-background"></div>
     <main class="page-main">
       <article class="main-content container">
-      	<p class="zine-name">
+      	<p class="zine-name"><a href="{{ '/' | prepend: site.baseurl }}">
 	      	<span class="title">ikigai</span><br/>
 	      	<span class="subtitle">a kageyama, oikawa, and sugawara zine</span>
+	      </a>
 	      </p>
 
       	{{ content }}
+
+      	<div class="contact-buttons">
+		    <a class="icon" id="twitter" href="https://twitter.com/thesugawaracltv" target="_blank">&nbsp;</a>
+		    <a class="icon" id="insta" href="https://www.instagram.com/thesugawaracollective/" target="_blank">&nbsp;</a>
+		    <a class="icon" id="tumblr" href="https://www.tumblr.com/thesugawaracollective" target="_blank">&nbsp;</a>
+		    <a class="icon" id="mail" href="mailto:sugawaradigizine+ikigai@gmail.com" target="_blank">&nbsp;</a>
+      	</div>
   	  </article>
     </main>
   </body>

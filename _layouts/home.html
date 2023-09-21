@@ -11,7 +11,19 @@
 	      	<span class="subtitle">a kageyama, oikawa, and sugawara zine</span>
 	      </p>
 
-      	{{ content }}
+      	<div class="page-buttons">
+      		{% for pg in site.pages %} {% unless pg.exclude %}
+		    {% if pg.title %}
+		    <a class="page-button {% if pg.title == page.title %}current{% endif %}" href="{{ pg.url | prepend: site.baseurl }}">{{ pg.title }}</a>
+		    {% endif %} {% endunless %} {% endfor %}
+      	</div>
+
+      	<div class="contact-buttons">
+		    <a class="icon" id="twitter" href="https://twitter.com/thesugawaracltv" target="_blank">&nbsp;</a>
+		    <a class="icon" id="insta" href="https://www.instagram.com/thesugawaracollective/" target="_blank">&nbsp;</a>
+		    <a class="icon" id="tumblr" href="https://www.tumblr.com/thesugawaracollective" target="_blank">&nbsp;</a>
+		    <a class="icon" id="mail" href="mailto:sugawaradigizine+ikigai@gmail.com" target="_blank">&nbsp;</a>
+      	</div>
   	  </article>
     </main>
   </body>

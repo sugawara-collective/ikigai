@@ -3,23 +3,23 @@
 ---
 @font-face {
     font-family: HiguenSerif;
-    src: url("/assets/fonts/Higuen Serif.otf") format("opentype");
+    src: url({{ "/assets/fonts/Higuen Serif.otf" | prepend: site.baseurl }}) format("opentype");
 }
 
 @font-face {
     font-family: Arapey;
-    src: url("/assets/fonts/Arapey/Arapey-Regular.ttf") format("truetype");
+    src: url({{ "/assets/fonts/Arapey/Arapey-Regular.ttf" | prepend: site.baseurl }}) format("truetype");
 }
 
 @font-face {
     font-family: Poppins;
-    src: url("/assets/fonts/Poppins/Poppins-Light.ttf") format("truetype");
+    src: url({{ "/assets/fonts/Poppins/Poppins-Light.ttf" | prepend: site.baseurl }}) format("truetype");
 }
 
 @font-face {
     font-family: Poppins;
     font-weight: bold;
-    src: url("/assets/fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+    src: url({{ "/assets/fonts/Poppins/Poppins-Medium.ttf" | prepend: site.baseurl }}) format("truetype");
 }
 
 /*
@@ -41,7 +41,7 @@ the text box..
 
 the background
 	height: 100%;
-    background-image: url(/assets/images/BACKGROUND.png);
+    background-image: url({{ '/assets/images/BACKGROUND.png' | prepend: site.baseurl }});
     background-position: right;
 
 */
@@ -61,7 +61,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .fixed-background {
-	background-image: url(/assets/images/BACKGROUND.png);
+	background-image: url({{ '/assets/images/BACKGROUND.png' | prepend: site.baseurl }});
 	background-position: right;
 	height: 100vh;
 	width: 100vw;
